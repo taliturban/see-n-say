@@ -1,0 +1,53 @@
+<!-- Assignment 1 | Talita Urban Silva | COMP1073 Client-Side JavaScript -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>See 'N' Say Storymaker</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <h1>See 'N' Say Storymaker</h1>
+	<div class="container">
+		<div class="left-side">
+			<div class="buttons">
+				<button id="nouns1Button"></button>
+				<button id="verbsButton"></button>
+				<button id="adjButton"></button>
+				<button id="nouns2Button"></button>
+				<button id="placesButton"></button>
+			</div>
+			<div class="words-container">
+				<div class="words-column" id="nouns1Container">
+					<ul id="nouns1List"></ul>
+				</div>
+				<div class="words-column" id="verbsContainer">
+					<ul id="verbsList"></ul>
+				</div>
+				<div class="words-column" id="adjectivesContainer">
+					<ul id="adjectivesList"></ul>
+				</div>
+				<div class="words-column" id="nouns2Container">
+					<ul id="nouns2List"></ul>
+				</div>
+				<div class="words-column" id="placesContainer">
+					<ul id="placesList"></ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="right-side">
+			<button id="speakButton">Speak</button>
+			<button id="resetButton">Reset</button>
+		</div>
+		
+	</div>
+    <div class="textgen">
+        <p id="generatedText"></p>
+    </div>
+	<script src="app.js"></script>
+</body>
+</html>
